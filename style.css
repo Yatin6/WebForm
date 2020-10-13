@@ -12,14 +12,15 @@ canvas {
 
 ul li {
   list-style: none;
+  display: inline-block;
 }
 
 label {
-  
+  display: block;
 }
 
 input {
-
+  padding:0px;
 }
 
 input:focus {
