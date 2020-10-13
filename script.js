@@ -26,3 +26,18 @@ form.addEventListener("submit", (event) => {
 });
 
 
+function setup(){
+  // Creates a canvas with the same dimensions as the browser window
+  var canvas = createCanvas(window.innerWidth, window.innerHeight);
+  // Attaches the canvas to the body element with the ID 'canvas-container'
+  canvas.parent('canvas-container');
+}
+
+function draw(){
+  // Sets the canvas background every frame
+  background(255, 255, 230);
+}
+
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
+}
